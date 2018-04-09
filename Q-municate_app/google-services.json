@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "319652434714",
+    "firebase_url": "https://chat3-73f74.firebaseio.com",
+    "project_id": "chat3-73f74",
+    "storage_bucket": "chat3-73f74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319652434714:android:214b80bdedc862cf",
+        "android_client_info": {
+          "package_name": "com.quickblox.follow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319652434714-kub4aig5gg2iqbkhijhgpkt8tkracs26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quickblox.follow",
+            "certificate_hash": "b445326f32f21ebcd10996d0403cb93a02a10450"
+          }
+        },
+        {
+          "client_id": "319652434714-si5gu2nd7jt6rv1mt7jqeq05nn6494ks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quickblox.follow",
+            "certificate_hash": "68457ba3214eebb103f2bd35ecd6e5172eb173c0"
+          }
+        },
+        {
+          "client_id": "319652434714-f4g6vmpgluagg9egsae9ijafvld0ec7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACrQ0ePCKjRm2C7JrVcGuve4mzx1eS7_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319652434714-f4g6vmpgluagg9egsae9ijafvld0ec7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/app_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/labels_imageview"
+        android:layout_alignStart="@+id/labels_imageview"
+        android:layout_marginTop="65dp" />
+
+    <ImageView
+        android:id="@+id/labels_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/follow_your_caht" />
+
+    <Button
+        android:id="@+id/phone_number_connect_button"
+        style="@style/TextViewDrawableStyle.White"
+        android:layout_width="@dimen/landing_button_width"
+        android:layout_height="@dimen/landing_button_height"
+
+        android:background="@drawable/selector_button_green_oval"
+        android:text="@string/landing_connect_with_twitter_digits"
+        android:textAllCaps="true"
+        android:textSize="@dimen/landing_button_text_size"
+        android:layout_below="@+id/labels_imageview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/facebook_connect_button"
+        android:layout_width="@dimen/landing_button_width"
+        android:layout_height="@dimen/landing_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_button_connect_facebook"
+        android:layout_below="@+id/phone_number_connect_button"
+        android:layout_alignLeft="@+id/phone_number_connect_button"
+        android:layout_alignStart="@+id/phone_number_connect_button">
+
+        <TextView
+            style="@style/TextViewDrawableStyle.White"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:textAllCaps="true"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_fb_white"
+            android:text="@string/auth_log_in_with_facebook"
+            android:textSize="@dimen/landing_button_text_size"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/app_version_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+
+
+
+</RelativeLayout>
